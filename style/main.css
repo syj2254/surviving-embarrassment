@@ -26,6 +26,8 @@ html {
   letter-spacing: 0.5px;
   text-decoration: none;
   cursor: pointer;
+  -webkit-text-stroke: 0.6px #ffffff;
+  paint-order: stroke fill;
   transition: color 0.2s;
 }
 .logo:hover {

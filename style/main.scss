@@ -28,6 +28,9 @@ html {
   letter-spacing: 0.5px;
   text-decoration: none;
   cursor: pointer;
+  // 흰색 테두리: 0.6px가 바깥 0.3px 정도로 보임. 굵기는 이 숫자만 바꾸면 됨
+  -webkit-text-stroke: 0.6px #ffffff;
+  paint-order: stroke fill;
   transition: color 0.2s;
 
   &:hover {
